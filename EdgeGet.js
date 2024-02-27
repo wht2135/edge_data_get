@@ -36,8 +36,8 @@
  function sendEmail(data) {
   // Create an email message.
   var message = {
-    to: "your_email_address@example.com",
-    from: "edgematrix-data-extractor@example.com",
+    to: "tundao@qq.com",
+    from: "edgematrix-data-extractor",
     subject: "EdgeMatrix Data Extractor Report",
     body: "The following data was extracted from https://dashboard.edgematrix.pro/#/nodes/16Uiu2HAkyVLcY4tikffGfmTW5ejRqT3ikDRQNmkftVYLvRczUpKh:\n\n" + JSON.stringify(data, null, 2)
   };
