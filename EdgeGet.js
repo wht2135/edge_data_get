@@ -61,13 +61,7 @@
     sendEmail(data);
   }, 3600000);
 
-  // Function to get data from the web page.
-  function getDataFromWebPage() {
-    // TODO: Implement this function.
-  }
 
-  // Function to send email.
-  function sendEmail(data) {
-    // TODO: Implement this function.
-  }
+
+
 })();
